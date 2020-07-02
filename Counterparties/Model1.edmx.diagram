@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c87a5c6fdc646fb81604e42fcf2049a" Name="Diagram1">
+        <EntityTypeShape EntityType="CounterpartiesModel.Individuals" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CounterpartiesModel.LegalEntities" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CounterpartiesModel.Manager" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="CounterpartiesModel.FK_Individuals_Manager" ManuallyRouted="false" />
+        <AssociationConnector Association="CounterpartiesModel.FK_LegalEntities_Manager" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
