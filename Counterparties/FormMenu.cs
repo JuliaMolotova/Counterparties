@@ -17,22 +17,16 @@ namespace Counterparties
             InitializeComponent();
         }
 
-        private void buttonManager_Click(object sender, EventArgs e)
+        private void buttonAuthorization_Click(object sender, EventArgs e)
         {
-            Form formManager = new FormManager();
-            formManager.Show();
+            Form formAuthorization = new FormAuthorization();
+            formAuthorization.Show();
         }
 
-        private void buttonIndividuals_Click(object sender, EventArgs e)
+        private void buttonReg_Click(object sender, EventArgs e)
         {
-            Form formIndividuals = new FormIndividuals();
-            formIndividuals.Show();
-        }
-
-        private void buttonLegalEntities_Click(object sender, EventArgs e)
-        {
-            Form formLegalEntities = new FormLegalEntities();
-            formLegalEntities.Show();
+            Form formReg = new FormReg();
+            formReg.Show();
         }
     }
 }

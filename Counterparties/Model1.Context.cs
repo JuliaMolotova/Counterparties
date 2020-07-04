@@ -13,10 +13,10 @@ namespace Counterparties
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CounterpartiesEntities : DbContext
+    public partial class АптекаEntities : DbContext
     {
-        public CounterpartiesEntities()
-            : base("name=CounterpartiesEntities")
+        public АптекаEntities()
+            : base("name=АптекаEntities")
         {
         }
     
@@ -25,8 +25,9 @@ namespace Counterparties
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Individuals> Individuals { get; set; }
-        public virtual DbSet<LegalEntities> LegalEntities { get; set; }
-        public virtual DbSet<Manager> Manager { get; set; }
+        public virtual DbSet<Buyer> Buyer { get; set; }
+        public virtual DbSet<Medicine> Medicine { get; set; }
+        public virtual DbSet<Pharmacist> Pharmacist { get; set; }
+        public virtual DbSet<User> User { get; set; }
     }
 }

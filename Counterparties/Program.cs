@@ -8,7 +8,7 @@ namespace Counterparties
 {
     static class Program
     {
-        public static CounterpartiesEntities counterparties = new CounterpartiesEntities();
+        public static АптекаEntities аптека = new АптекаEntities();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

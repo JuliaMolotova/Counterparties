@@ -4,12 +4,11 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="0c87a5c6fdc646fb81604e42fcf2049a" Name="Diagram1">
-        <EntityTypeShape EntityType="CounterpartiesModel.Individuals" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="CounterpartiesModel.LegalEntities" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="CounterpartiesModel.Manager" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
-        <AssociationConnector Association="CounterpartiesModel.FK_Individuals_Manager" ManuallyRouted="false" />
-        <AssociationConnector Association="CounterpartiesModel.FK_LegalEntities_Manager" ManuallyRouted="false" />
+      <Diagram DiagramId="f2fabddc10b148ada552e97cdc9fb816" Name="Diagram1">
+        <EntityTypeShape EntityType="АптекаModel.Buyer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="АптекаModel.Medicine" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="АптекаModel.Pharmacist" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="АптекаModel.User" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

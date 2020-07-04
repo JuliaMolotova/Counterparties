@@ -12,16 +12,13 @@ namespace Counterparties
     using System;
     using System.Collections.Generic;
     
-    public partial class Individuals
+    public partial class Medicine
     {
         public int Id { get; set; }
-        public int IdManager { get; set; }
-        public string LastName { get; set; }
-        public string IO { get; set; }
-        public int Type { get; set; }
-        public string DOB { get; set; }
-        public string Address { get; set; }
-    
-        public virtual Manager Manager { get; set; }
+        public string Name { get; set; }
+        public string Type { get; set; }
+        public string Dosage { get; set; }
+        public string Manufacturer { get; set; }
+        public string Date { get; set; }
     }
 }
